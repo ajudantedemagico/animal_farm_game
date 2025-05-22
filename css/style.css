@@ -1,0 +1,40 @@
+body {
+    background-image: url("../assets/img/fundo_pagina1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 95%;
+    height: auto;
+    font-family:"Press Start 2P", system-ui;;
+}
+.Logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.Porco_Img {
+  float: left;
+  width: 500px;
+}
+.Farmer_Img {
+  float: right;
+  width: 400px;
+}
+#Botao_Start {
+    align-items: center;
+    font-family:"Press Start 2P", system-ui;
+    font-size: 350%;
+    color: #007A3B;
+    text-align: center;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #000;
+    font-style: normal;
+    line-height: normal;
+    width: 424px;
+    height: 152px;
+    flex-shrink: 0;
+    border-radius: 55px;
+    border: 11px solid #000;
+    background: #FFF;
+    box-shadow: 16px 15px 0px 1px rgba(0, 0, 0, 0.25);
+}
