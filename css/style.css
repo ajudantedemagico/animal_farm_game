@@ -1,10 +1,19 @@
 body {
-    background-image: url("../assets/img/fundo_pagina1.png");
+    background-image: url("../assets/img/fundo_pagina2.png");
     background-size: 100%;
     background-repeat: no-repeat;
     width: 95%;
     height: auto;
-    font-family:"Press Start 2P", system-ui;;
+    font-family:"Press Start 2P", system-ui;
+}
+h1 {
+    font-family:"Press Start 2P", system-ui;
+    color: #ffffff;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    font-style: normal;
+    line-height: normal;
 }
 .Logo {
   display: block;
@@ -20,7 +29,51 @@ body {
   float: right;
   width: 400px;
 }
+.botoes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
 #Botao_Start {
+    align-items: center;
+    font-family:"Press Start 2P", system-ui;
+    font-size: 350%;
+    color: #007A3B;
+    text-align: center;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #000;
+    font-style: normal;
+    line-height: normal;
+    width: 424px;
+    height: 152px;
+    flex-shrink: 0;
+    border-radius: 55px;
+    border: 11px solid #000;
+    background: #FFF;
+    box-shadow: 16px 15px 0px 1px rgba(0, 0, 0, 0.25);
+}
+
+#Botao_Animal {
+    align-items: center;
+    font-family:"Press Start 2P", system-ui;
+    font-size: 350%;
+    color: #007A3B;
+    text-align: center;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #000;
+    font-style: normal;
+    line-height: normal;
+    width: 424px;
+    height: 152px;
+    flex-shrink: 0;
+    border-radius: 55px;
+    border: 11px solid #000;
+    background: #FFF;
+    box-shadow: 16px 15px 0px 1px rgba(0, 0, 0, 0.25);
+}
+
+#Botao_Farmer {
     align-items: center;
     font-family:"Press Start 2P", system-ui;
     font-size: 350%;
