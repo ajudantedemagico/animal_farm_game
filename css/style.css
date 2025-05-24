@@ -1,11 +1,4 @@
-body {
-    background-image: url("../assets/img/fundo_pagina2.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    width: 95%;
-    height: auto;
-    font-family:"Press Start 2P", system-ui;
-}
+
 h1 {
     font-family:"Press Start 2P", system-ui;
     color: #ffffff;
@@ -27,8 +20,9 @@ h1 {
 }
 .Farmer_Img {
   float: right;
-  width: 400px;
+  width: 500px;
 }
+
 .botoes{
     display: flex;
     justify-content: center;
@@ -47,6 +41,25 @@ h1 {
     line-height: normal;
     width: 424px;
     height: 152px;
+    flex-shrink: 0;
+    border-radius: 55px;
+    border: 11px solid #000;
+    background: #FFF;
+    box-shadow: 16px 15px 0px 1px rgba(0, 0, 0, 0.25);
+}
+
+#Botao_Continue {
+    align-items: center;
+    font-family:"Press Start 2P", system-ui;
+    font-size: 300%;
+    color: #086788;
+    text-align: center;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #000;
+    font-style: normal;
+    line-height: normal;
+    width: 434px;
+    height: 172px;
     flex-shrink: 0;
     border-radius: 55px;
     border: 11px solid #000;
@@ -90,4 +103,49 @@ h1 {
     border: 11px solid #000;
     background: #FFF;
     box-shadow: 16px 15px 0px 1px rgba(0, 0, 0, 0.25);
+}
+.texto{
+  align-items: center;
+  font-family:"Press Start 2P", system-ui;
+  font-size: 450%;
+  color: #FFF;
+  -webkit-text-stroke-width: 20px;
+  -webkit-text-stroke-color: #000;
+}
+
+.index-bg {
+    background-image: url("../assets/img/fundo_pagina1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 95%;
+    height: auto;
+    font-family:"Press Start 2P", system-ui;
+}
+.escolha-bg {
+    background-color: #007A3B;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 95%;
+    height: auto;
+    font-family:"Press Start 2P", system-ui;
+    align-items: flex-end;
+}
+.farmer-001-bg {
+    background-image: url("../assets/img/fundo_pagina3.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    image-orientation: flip;
+    font-family:"Press Start 2P", system-ui;
+}
+.farmer-001-texto {
+  width: 855px;
+  height: 317px;
+  text-align: right;
+  font-family:"Press Start 2P", system-ui;
+  font-size: 150%;
+  color: #FFF;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
 }
