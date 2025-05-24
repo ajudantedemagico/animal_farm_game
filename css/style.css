@@ -8,6 +8,7 @@ h1 {
     font-style: normal;
     line-height: normal;
 }
+
 .Logo {
   display: block;
   margin-left: auto;
@@ -17,10 +18,12 @@ h1 {
 .Porco_Img {
   float: left;
   width: 500px;
+  margin-top: -80px;
 }
 .Farmer_Img {
   float: right;
   width: 500px;
+  margin-top: -150px;
 }
 
 .botoes{
@@ -65,13 +68,15 @@ h1 {
     border: 11px solid #000;
     background: #FFF;
     box-shadow: 16px 15px 0px 1px rgba(0, 0, 0, 0.25);
+    margin-top: -100px;
+    
 }
 
 #Botao_Animal {
     align-items: center;
     font-family:"Press Start 2P", system-ui;
     font-size: 350%;
-    color: #007A3B;
+    color: #F45D01;
     text-align: center;
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: #000;
@@ -90,7 +95,7 @@ h1 {
     align-items: center;
     font-family:"Press Start 2P", system-ui;
     font-size: 350%;
-    color: #007A3B;
+    color:#086788;
     text-align: center;
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: #000;
@@ -122,6 +127,7 @@ h1 {
     font-family:"Press Start 2P", system-ui;
 }
 .escolha-bg {
+  background-image: url("../assets/img/fundo_pagina2.png");
     background-color: #007A3B;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -130,13 +136,21 @@ h1 {
     font-family:"Press Start 2P", system-ui;
     align-items: flex-end;
 }
+.escolha-texto {
+  align-items: center;
+  font-family:"Press Start 2P", system-ui;
+  font-size: 350%;
+  color: #FFF;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+}
 .farmer-001-bg {
     background-image: url("../assets/img/fundo_pagina3.png");
     background-size: 100%;
     background-repeat: no-repeat;
+    align-content:normal;
     width: 100%;
     height: auto;
-    image-orientation: flip;
     font-family:"Press Start 2P", system-ui;
 }
 .farmer-001-texto {
@@ -148,4 +162,5 @@ h1 {
   color: #FFF;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #000;
+  margin-left:500px;
 }
